@@ -108,6 +108,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/b-urb/doclytics:${{ env.BRANCH_NAME }}
+          tags: ghcr.io/${{ github.repository_owner }}/doclytics:${{ env.BRANCH_NAME }}
           platforms: linux/amd64,linux/arm64
 
